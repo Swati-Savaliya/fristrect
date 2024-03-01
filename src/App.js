@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Home from './Home';
+import Home1 from './Home1';
+import Fun1 from './Fun1';
+import Fun2 from './Fun2';
 function App() {
   return (
     <div className="App">
@@ -15,8 +19,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React + hello clone (work done)
+          Learn React 
         </a>
+        <Home/>
+        <Home1/>
+        <Fun1/>
+        <Fun2/>
       </header>
     </div>
   );
